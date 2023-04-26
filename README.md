@@ -33,3 +33,8 @@ for seq in sequences:
     print(f"Result: {seq['generated_text']}")
 
 ```
+
+
+
+There will be a warning that the model is not supported for generation, it can safely be ignore.
+
