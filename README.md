@@ -142,6 +142,8 @@ The data was tokenized with the Falcon-[7B](https://huggingface.co/tiiuae/falcon
 
 See the [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) for early results.
 
+Note that this model variant is not optimized for NLP benchmarks. 
+
 
 ## Technical Specifications 
 
