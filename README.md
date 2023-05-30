@@ -4,6 +4,7 @@ datasets:
 language:
 - en
 inference: false
+license: tii-falcon-llm
 ---
 
 # ✨ Falcon-7B-Instruct
@@ -193,4 +194,3 @@ Falcon-7B-Instruct is made available under the [TII Falcon LLM License](https://
 
 ## Contact
 falconllm@tii.ae
-
