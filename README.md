@@ -4,7 +4,7 @@ datasets:
 language:
 - en
 inference: false
-license: tii-falcon-llm
+license: apache-2.0
 ---
 
 # ✨ Falcon-7B-Instruct
