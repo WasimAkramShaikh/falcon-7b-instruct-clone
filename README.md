@@ -9,7 +9,7 @@ license: apache-2.0
 
 # ✨ Falcon-7B-Instruct
 
-**Falcon-7B-Instruct is a 7B parameters causal decoder-only model built by [TII](https://www.tii.ae) based on [Falcon-7B](https://huggingface.co/tiiuae/falcon-7b) and finetuned on a mixture of chat/instruct datasets. It is made available under the [TII Falcon LLM License](https://huggingface.co/tiiuae/falcon-7b-instruct/blob/main/LICENSE.txt).**
+**Falcon-7B-Instruct is a 7B parameters causal decoder-only model built by [TII](https://www.tii.ae) based on [Falcon-7B](https://huggingface.co/tiiuae/falcon-7b) and finetuned on a mixture of chat/instruct datasets. It is made available under the Apache 2.0 license.**
 
 *Paper coming soon 😊.*
 
@@ -64,7 +64,7 @@ for seq in sequences:
 - **Developed by:** [https://www.tii.ae](https://www.tii.ae);
 - **Model type:** Causal decoder-only;
 - **Language(s) (NLP):** English and French;
-- **License:** [TII Falcon LLM License](https://huggingface.co/tiiuae/falcon-7b-instruct/blob/main/LICENSE.txt);
+- **License:** Apache 2.0;
 - **Finetuned from model:** [Falcon-7B](https://huggingface.co/tiiuae/falcon-7b).
 
 ### Model Source
@@ -186,11 +186,7 @@ Falcon-7B-Instruct was trained a custom distributed training codebase, Gigatron.
 
 ## License
 
-Falcon-7B-Instruct is made available under the [TII Falcon LLM License](https://huggingface.co/tiiuae/falcon-7b-instruct/blob/main/LICENSE.txt). Broadly speaking,
-* You can freely use our models for research and/or personal purpose;
-* You are allowed to share and build derivatives of these models, but you are required to give attribution and to share-alike with the same license;
-* For commercial use, you are exempt from royalties payment if the attributable revenues are inferior to $1M/year, otherwise you should enter in a commercial agreement with TII.
-
+Falcon-7B-Instruct is made available under the Apache 2.0 license.
 
 ## Contact
 falconllm@tii.ae
