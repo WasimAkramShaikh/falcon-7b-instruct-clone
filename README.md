@@ -13,6 +13,8 @@ license: apache-2.0
 
 *Paper coming soon 😊.*
 
+🤗 To get started with Falcon (inference, finetuning, quantization, etc.), we recommend reading [this great blogpost fron HF](https://huggingface.co/blog/falcon)!
+
 ## Why use Falcon-7B-Instruct?
 
 * **You are looking for a ready-to-use chat/instruct model based on [Falcon-7B](https://huggingface.co/tiiuae/falcon-7b).**
@@ -53,6 +55,10 @@ for seq in sequences:
 ```
 
 💥 **Falcon LLMs require PyTorch 2.0 for use with `transformers`!**
+
+For fast inference with Falcon, check-out [Text Generation Inference](https://github.com/huggingface/text-generation-inference)! Read more in this [blogpost]((https://huggingface.co/blog/falcon). 
+
+You will need **at least 16GB of memory** to swiftly run inference with Falcon-7B-Instruct.
 
 
 # Model Card for Falcon-7B-Instruct
