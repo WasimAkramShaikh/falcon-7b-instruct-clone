@@ -1,9 +1,22 @@
 ---
 datasets:
-- tiiuae/falcon-refinedweb
+  - tiiuae/falcon-refinedweb
 language:
-- en
+  - en
 inference: true
+widget:
+  - text: "Hey Falcon! Any recommendations for my holidays in Abu Dhabi?"
+    example_title: "Abu Dhabi Trip"
+  - text: "What's the Everett interpretation of quantum mechanics?"
+    example_title: "Q/A: Quantum & Answers"
+  - text: "Give me a list of the top 10 dive sites you would recommend around the world."
+    example_title: "Diving Top 10"
+  - text: "Can you tell me more about deep-water soloing?"
+    example_title: "Extreme sports"
+  - text: "Can you write a short tweet about the Apache 2.0 release of our latest AI model, Falcon LLM?"
+    example_title: "Twitter Helper"
+  - text: "What are the responsabilities of a Chief Llama Officer?"
+    example_title: "Trendy Jobs"
 license: apache-2.0
 ---
 
