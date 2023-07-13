@@ -34,8 +34,6 @@ license: apache-2.0
 * **Falcon-7B is a strong base model, outperforming comparable open-source models** (e.g., [MPT-7B](https://huggingface.co/mosaicml/mpt-7b), [StableLM](https://github.com/Stability-AI/StableLM), [RedPajama](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-7B-v0.1) etc.), thanks to being trained on 1,500B tokens of [RefinedWeb](https://huggingface.co/datasets/tiiuae/falcon-refinedweb) enhanced with curated corpora. See the [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).
 * **It features an architecture optimized for inference**, with FlashAttention ([Dao et al., 2022](https://arxiv.org/abs/2205.14135)) and multiquery ([Shazeer et al., 2019](https://arxiv.org/abs/1911.02150)). 
 
-⚠️ Falcon is now available as a core model in the `transformers` library! To use the in-library version, please install the latest version of `transformers` with `pip install git+https://github.com/ huggingface/transformers.git`, then simply remove the `trust_remote_code=True` argument from `from_pretrained()`.
-
 💬 **This is an instruct model, which may not be ideal for further finetuning.** If you are interested in building your own instruct/chat model, we recommend starting from [Falcon-7B](https://huggingface.co/tiiuae/falcon-7b). 
 
 🔥 **Looking for an even more powerful model?** [Falcon-40B-Instruct](https://huggingface.co/tiiuae/falcon-40b-instruct) is Falcon-7B-Instruct's big brother!
@@ -53,6 +51,7 @@ pipeline = transformers.pipeline(
     model=model,
     tokenizer=tokenizer,
     torch_dtype=torch.bfloat16,
+    trust_remote_code=True,
     device_map="auto",
 )
 sequences = pipeline(
@@ -125,6 +124,7 @@ pipeline = transformers.pipeline(
     model=model,
     tokenizer=tokenizer,
     torch_dtype=torch.bfloat16,
+    trust_remote_code=True,
     device_map="auto",
 )
 sequences = pipeline(
